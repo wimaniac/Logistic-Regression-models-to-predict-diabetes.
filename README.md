@@ -38,17 +38,21 @@ Diabetes Dataset lấy từ kaggle được sử dụng trong dự án bao gồm
 Tải và kiểm tra dữ liệu
 Phân tích các thông số thống kê
 Trực quan hóa phân phối dữ liệu và mối quan hệ
+
 2️⃣ Tiền Xử Lý Dữ Liệu
 Xử lý các giá trị thiếu
 Chuẩn hóa/Tiêu chuẩn hóa dữ liệu
 Chia dữ liệu thành train set và test set
+
 3️⃣ Xây Dựng & Huấn Luyện Mô Hình
 4 mô hình Logistic Regression với các thuật toán tối ưu khác nhau
 Tối ưu các tham số (learning rate, số lần lặp, etc.)
+
 4️⃣ Đánh Giá Mô Hình
 Tính toán Accuracy, Precision, Recall, F1-score
 Vẽ Confusion Matrix
 Phân tích ROC Curve
+
 📊 Kết Quả Mô Hình
 Dự án so sánh 4 mô hình Logistic Regression với 3 thuật toán tối ưu khác nhau:
 
@@ -58,6 +62,7 @@ Logistic Regression (sklearn)	75.32% ⭐	0.65	0.67	0.66
 Mini-batch Gradient Descent	74.68%	0.64	0.65	0.65
 SGD (Stochastic GD)	73.38%	0.62	0.64	0.63
 Batch Gradient Descent	73.38%	0.62	0.64	0.63
+
 1️⃣ Logistic Regression - sklearn (Mô Hình Tốt Nhất) ⭐
 Code
 Accuracy: 75.32%
